@@ -1,11 +1,21 @@
-__pycache__/
-*.py[cod]
+# Virtual environments
 venv/
 .env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit cache
 .streamlit/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-.ipynb_checkpoints/
-*.log
+
+# Large datasets (optional)
+data/*.csv
